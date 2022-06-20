@@ -1,0 +1,97 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+deep red: #780000
+lighter red: #c1121f
+yellow: #ffba08
+yellow-orange: #faa307
+beige: #fdf0d5
+blackish: #0b090a
+dark grey: #212529
+
+*/
+
+/* import base style items from scrimba course */
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fdf0d5;
+}
+
+.hero {
+    height: 500px;
+    background-image: url(images/ames.jpeg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #0b090a;
+}
+
+.herotitle, .herosub {
+    background-color: #fdf0d5;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+
+h3 {
+    font-style: italic;
+    font-size: 24px;
+}
+
+.things {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 45px;
+}
+
+
+.thing1, .thing2, .thing3 {
+    margin: 20px 20px 0 20px;
+}
+
+
+img {
+    width: 300px;
+    border: 5px solid #212529;
+}
+
+.bell {
+    width: 125px;
+    margin: 3px 0;
+    padding: 28px 87.5px;
+}
+
+.guide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: #faa307;
+    padding: 40px 0;
+    
+}
+
+.guide-info {
+    width: 50%;
+    margin: 0px 25px;
+}
+
+.guide-info h4 {
+    font-size: 24px;
+}
+
+.footer {
+    font-style: italic;
+    
+}
